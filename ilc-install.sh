@@ -23,8 +23,15 @@ sudo apt clean
 git clone https://github.com/iLCSoft/iLCInstall.git
 cd iLCInstall/
 
-wget https://raw.githubusercontent.com/twto/ilc-install/master/release-versions-v01-19.py
-cp release-versions-v01-19.py releases/v01-19/release-versions.py
+#wget https://github.com/twto/ilc-install/raw/master/release-versions-v01-19.py
+#cp release-versions-v01-19.py releases/v01-19/release-versions.py
 
-./ilcsoft-install releases/v01-19/release-base.cfg -i
-./ilcsoft-install releases/v01-19/release-ilcsoft.cfg -i
+#./ilcsoft-install releases/v01-19/release-base.cfg -i
+#./ilcsoft-install releases/v01-19/release-ilcsoft.cfg -i
+
+wget https://github.com/twto/ilc-install/raw/master/release-versions-HEAD.py
+wget https://github.com/twto/ilc-install/raw/master/release-base.cfg
+wget https://github.com/twto/ilc-install/raw/master/release-ilcsoft.cfg
+
+./ilcsoft-install release-base.cfg -i
+./ilcsoft-install release-ilcsoft.cfg -i

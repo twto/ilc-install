@@ -32,43 +32,14 @@ use_cpp11 = True
 # ===========================================================
 #
 
-#ilcsoft_install_prefix = ilcsoft_afs_path[ arch ]
+
 #ilcsoft_install_prefix = "/afs/desy.de/project/ilcsoft/sw/x86_64_gcc44_sl6/"
 #ilcsoft_install_prefix = "/nfs/dust/ilc/user/voutsina/testarea/ilcsoft_c11/"
 ilcsoft_install_prefix = "/ilcsoft/"
 
-# ----------------------------------------------------------------------------
-#--- the ilcsoft_release is now automatically appended in release-ilcsoft.cfg
-#     but not in release-base.cfg !!
-
-#append_version_to_install_prefix = False
-#if(append_version_to_install_prefix):
-#    ilcsoft_install_dir = os.path.join(ilcsoft_install_prefix , ilcsoft_release )
-
-# ----------------------------------------------------------------------------
-
-
-# --------- ilcsoft home -----------------------------------------------------
-# ===========================================================
-# Modify this path to where you want ilcinstall to look
-# for pre-installed (base) packages
-# typically this would be left to ilcsoft_install_prefix
-# or set to an /afs or /cvmfs base installation that you
-# want to use
-# ===========================================================
-
-#ilcPath = '/afs/desy.de/project/ilcsoft/sw/x86_64_gcc44_sl6'
-#ilcPath = '/afs/desy.de/project/ilcsoft/sw/x86_64_gcc48_sl6'
-#ilcPath = '/afs/desy.de/project/ilcsoft/sw/x86_64_gcc41_sl5'
 
 
 ilcPath = ilcsoft_install_prefix
-# ----------------------------------------------------------------------------
-
-
-#--------------------------------------------------------------------------
-#ilcPatchPath = "/afs/desy.de/project/ilcsoft/sw/x86_64_gcc41_sl5/v01-15"
-
 
 
 # ======================= PACKAGES WITH NO INSTALL SUPPORT ===================
@@ -121,9 +92,9 @@ LCIO_version = "HEAD"
 
 GEAR_version = "HEAD"
 
-CondDBMySQL_version = "CondDBMySQL_ILC-0-9-6"
+CondDBMySQL_version = "HEAD"
 
-ILCUTIL_version = "v01-03"
+ILCUTIL_version = "HEAD"
 
 FastJet_version = "3.2.0"
 FastJetcontrib_version = "1.024"
@@ -173,11 +144,13 @@ MarlinDD4hep_version = "HEAD" # "v00-01"
 
 DDMarlinPandora_version = "HEAD" # "v00-01"
 
+Mokka_version = "HEAD" # "mokka-08-05"
 MarlinReco_version = "HEAD" # "v01-13"
 
 FCalClusterer_version = "HEAD" # "v00-01"
 
 ILDPerformance_version = "HEAD" # "v00-01"
+ClicPerformance_version = "HEAD" # "v00-01"
 
 ILDConfig_version = "HEAD"
 
@@ -217,6 +190,9 @@ lcgeo_version = "HEAD" # "v00-05"
 
 Physsim_version = "HEAD" # "v00-02"
 
+ConformalTracking_version = "HEAD"
+
+LICH_version = "HEAD"
 
 # xerces-c (needed by geant4 for building gdml support - required by mokka)
 XERCESC_ROOT_DIR = ilcPath + "/xercesc/3.2.0"
