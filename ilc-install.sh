@@ -18,12 +18,13 @@ libglew1.5-dev libgsl0-dev libjpeg-dev libkrb5-dev libldap2-dev liblz4-dev liblz
 libpythia8-dev libqt4-dev libssl-dev libtbb-dev libtiff5-dev libx11-dev libxext-dev libxft-dev libxml2-dev libxmu-dev libxpm-dev \
 libz3-dev xlibmesa-glu-dev zlib1g-dev
 
+sudo apt clean
+
 git clone https://github.com/iLCSoft/iLCInstall.git
 cd iLCInstall/
 
 wget https://raw.githubusercontent.com/twto/ilc-install/master/release-versions-v01-19.py
 cp release-versions-v01-19.py releases/v01-19/release-versions.py
-
 
 ./ilcsoft-install releases/v01-19/release-base.cfg -i
 ./ilcsoft-install releases/v01-19/release-ilcsoft.cfg -i
