@@ -16,7 +16,7 @@ default-jdk dpkg-dev latex2html cernlib-core-dev davix-dev doxygen freeglut3-dev
 libcfitsio-dev libctypes-ocaml-dev libeigen3-dev libfftw3-dev libfreetype6-dev libftgl-dev libgfal2-dev libgif-dev libgl2ps-dev \
 libglew1.5-dev libgsl0-dev libjpeg-dev libkrb5-dev libldap2-dev liblz4-dev liblzma-dev libmysqlclient-dev libpcre3-dev libpng-dev \
 libpythia8-dev libqt4-dev libssl-dev libtbb-dev libtiff5-dev libx11-dev libxext-dev libxft-dev libxml2-dev libxmu-dev libxpm-dev \
-libz3-dev xlibmesa-glu-dev zlib1g-dev
+libz3-dev xlibmesa-glu-dev zlib1g-dev libcurl4-openssl-dev
 
 sudo apt clean
 

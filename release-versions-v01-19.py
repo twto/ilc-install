@@ -106,7 +106,7 @@ ROOT_version = "6.12.04"
 
 GSL_version = "2.1"
 
-QT_version = "4.7.4"
+QT_version = "5.9.4"
 
 CMake_version = "3.6.3"
 
@@ -173,7 +173,7 @@ MarlinDD4hep_version = "v00-05"
 MarlinReco_version = "v01-22"
 
 ILDPerformance_version = "v01-04"
-
+ClicPerformance_version = "v02-00-00" # "v00-01"
 #ILDConfig_version = "HEAD"
 
 

@@ -70,11 +70,11 @@ Eigen_path =  "/usr"
 
 # ======================= PACKAGE VERSIONS ===================================
 
-#Geant4_version =  "10.02.p02"
-#CLHEP_version =  "2.3.1.1"
+Geant4_version =  "10.02.p02"
+CLHEP_version =  "2.3.1.1"
 
-Geant4_version =  "10.03.p02"
-CLHEP_version =  "2.3.4.3"
+# Geant4_version =  "10.03.p02"
+# CLHEP_version =  "2.3.4.3"
 
 ROOT_version = "6.12.04"
 
@@ -84,7 +84,7 @@ QT_version = "4.7.4"
 
 CMake_version = "3.6.3"
 
-CED_version = "v01-09-02"
+CED_version = "HEAD" #""v01-09-02"
 
 # -------------------------------------------
 
