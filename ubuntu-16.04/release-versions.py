@@ -78,18 +78,16 @@ ilcPatchPath = "/ilcsoft/HEAD"
 # please adjust the path variables accordingly
 
 # ----- mysql --------------------------------------------------------
-MySQL_version = "5.5.22"
-MySQL_path = ilcPath + "/mysql/" + MySQL_version
+MySQL_version = "5.7.21"
 
-#if( ilcsoft_afs_path[ arch ] == '/afs/desy.de/project/ilcsoft/sw/x86_64_gcc46_ub1204' ):
-MySQL_path = "/usr/local"
+MySQL_path = "/usr"
 
 
 #------ boost headers files ------------------------------------------
-Boost_path = "/usr/local/opt/boost160"
+Boost_path = "/usr"
 
 #------ Eigen headers files ------------------------------------------
-Eigen_path = "/usr/local/opt/eigen32"
+Eigen_path = "/usr"
 
 
 # ----------------------------------------------------------------------------
